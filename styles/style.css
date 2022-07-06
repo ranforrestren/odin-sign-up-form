@@ -1,0 +1,22 @@
+body {
+  margin: 0px;
+}
+
+#container {
+  display:flex;
+  height: 100vh;
+}
+
+#sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  background: url("../assets/sidebarimg.jpg") no-repeat center;
+  background-size: auto;
+}
+
+#imgattrib {
+  color: white;
+  margin: auto 0px 10px;
+  text-align: center;
+}
