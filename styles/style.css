@@ -3,7 +3,7 @@ body {
 }
 
 #container {
-  display:flex;
+  display: flex;
   height: 100vh;
 }
 
@@ -12,7 +12,24 @@ body {
   flex-direction: column;
   width: 600px;
   background: url("../assets/sidebarimg.jpg") no-repeat center;
-  background-size: auto;
+  background-size: cover;
+}
+
+#logobar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 180px;
+  height: 120px;
+  padding: 20px;
+  font-size: 4rem;
+  color: white;
+  font-family: 'Garamond', serif;
+  background: #00000044;
+}
+
+#logoimg {
+  max-height: 100%;
 }
 
 #imgattrib {
