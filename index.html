@@ -25,34 +25,36 @@
       </div>
     </div>
     <div id="main">
-      <div id="tagline">This is not a real online service! You know you need something like this in your life to help you realize your
+      <div id="tagline">This is not a real online service! You know you need something like this in your life to help
+        you realize your
         deepest dreams. Sign up <i>now</i> to get started.<br><br>You <i>know</i> you want to.</div>
       <form id="signup" action="">
-          <div id="signTag">Let's do this!</div>
-          <div class="inputWrapper">
-            <label for="firstName">FIRST NAME</label>
-            <input type="text" id="firstName">
-          </div>
-          <div class="inputWrapper">
-            <label for="lastName">LAST NAME</label>
-            <input type="text" id="lastName">
-          </div>
-          <div class="inputWrapper">
-            <label for="email">EMAIL</label>
-            <input type="text" id="firstName">
-          </div>
-          <div class="inputWrapper">
-            <label for="phoneNumber">PHONE NUMBER</label>
-            <input type="text" id="lastName">
-          </div>
-          <div class="inputWrapper">
-            <label for="password">PASSWORD</label>
-            <input type="text" id="firstName">
-          </div>
-          <div class="inputWrapper">
-            <label for="passConf">CONFIRM PASSWORD</label>
-            <input type="text" id="lastName">
-          </div>
+        <div id="signTag">Let's do this!</div>
+        <div class="inputWrapper">
+          <label for="firstName">FIRST NAME</label>
+          <input type="text" id="firstName">
+        </div>
+        <div class="inputWrapper">
+          <label for="lastName">LAST NAME</label>
+          <input type="text" id="lastName">
+        </div>
+        <div class="inputWrapper">
+          <label for="email">EMAIL</label>
+          <input type="email" id="firstName">
+        </div>
+        <div class="inputWrapper">
+          <label for="phoneNumber">PHONE NUMBER</label>
+          <input type="number" id="lastName">
+        </div>
+        <div class="inputWrapper">
+          <label for="password">PASSWORD (*)</label>
+          <input type="password" id="firstName" class="error" required>
+          <div>* Passwords do not match</div>
+        </div>
+        <div class="inputWrapper">
+          <label for="passConf">CONFIRM PASSWORD (*)</label>
+          <input type="password" id="lastName" class="error" required>
+        </div>
       </form>
       <button id="formButton" type="submit" form="signup" value="Submit">Create Account</button>
       <div id="logIn">Already have an account? <a>Log in</a></div>
