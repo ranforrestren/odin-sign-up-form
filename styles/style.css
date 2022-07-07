@@ -10,7 +10,7 @@ body {
 #sidebar {
   display: flex;
   flex-direction: column;
-  flex: 0 0 600px;
+  flex: 0 1 600px;
   background: url("../assets/sidebarimg.jpg") no-repeat center;
   background-size: cover;
 }
@@ -39,7 +39,7 @@ body {
 }
 
 #main {
-  flex: auto;
+  flex: 1 0 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -49,24 +49,56 @@ body {
 
 #main > * {
   padding-left: 80px;
+  padding-right: 200px;
+  color: #333333;
+}
+
+#tagline {
+  margin-bottom: 2em;
 }
 
 #signup {
   display: flex;
   flex-flow: row wrap;
-  gap: 0px 80px;
+  gap: 10px 80px;
+  padding: 20px 200px 20px 80px;
   background-color: #FFFFFF;
+}
+
+#signTag {
+  flex-basis: 100%;
 }
 
 .inputWrapper {
   display: flex;
   flex-direction: column;
-  flex-basis: 400px;
+  flex-basis: 35%;
   padding: 10px 0px;
 }
 
 .inputWrapper label {
   font-family: sans-serif;
   font-size: 1rem;
+  color: #555555;
+}
+
+.inputWrapper input {
+  border: 2px solid #E5E7EB;
+  border-radius: 5px;
+  padding: 7px;
+  font-size: 1rem;
   color: #333333;
+}
+
+#formButton {
+  margin: 2rem 80px;
+  padding: 0px;
+  width: 300px;
+  height: 3rem;
+  background: #F8D7DD;
+  border: 0px;
+  border-radius: 5px;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+  box-shadow: 2px 4px 4px #88888855;
 }
