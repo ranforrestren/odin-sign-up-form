@@ -4,7 +4,7 @@ body {
 
 #container {
   display: flex;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 #sidebar {
@@ -63,6 +63,7 @@ body {
   gap: 10px 80px;
   padding: 20px 200px 20px 80px;
   background-color: #FFFFFF;
+  box-shadow: 0px 4px 4px #88888855;
 }
 
 #signTag {
